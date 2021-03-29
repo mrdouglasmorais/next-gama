@@ -1,0 +1,26 @@
+{
+  "name": "accenture-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "server": "json-server server.json -p 8888 -w",
+    "server:delay": "json-server server.json -p 8888 -d 2000 -w"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "next": "10.0.9",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.36",
+    "@types/react": "^17.0.3",
+    "@types/styled-components": "^5.1.9",
+    "json-server": "^0.16.3",
+    "typescript": "^4.2.3"
+  }
+}
